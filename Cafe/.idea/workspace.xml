@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="703db0f0-dd09-4a4f-bb67-2bb38bc26c28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/app/customLib/confirmPassword.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/app/customLib/must-match.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/style (Mohammad Rocky's conflicted copy 2017-03-20).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/style.css (Mohammad Rocky's conflicted copy 2017-03-20).map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/MYRIADPRO-SEMIBOLD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-Hairline.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Montserrat-UltraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/fonts/theme-font/Raleway-Heavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/about-item/about-item-ms-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/banner/banner-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/Blog_Details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/Blog_Details-par.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/Blog_Details-par2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-gallery/blog-g-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-gallery/blog-g-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-gallery/blog-g-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/blog-list/blog-list-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-blog/recent-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-blog/recent-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-blog/recent-blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-post/recent-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-post/recent-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-post/recent-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/blog/recent-post/recent-post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/booking-table-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/chef/chef-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/chef/chef-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/chef/chef-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/chef/chef-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/comment-user/comment-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/comment-user/comment-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/comment-user/comment-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/feature/feature-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/feature/feature-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/feature/feature-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/f-w-gallery/f-w-gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/f-w-gallery/f-w-gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/f-w-gallery/f-w-gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/f-w-gallery/f-w-gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/f-w-gallery/f-w-gallery-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/f-w-gallery/f-w-gallery-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/gallery/our-ms-gallery/gallery-ms-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/home-slider/01_Home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/home-slider/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/home-slider/slider-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/menu-grid/Menu_Grid-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/next-event/next-event-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/next-event/next-event-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/popular_menu_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/recype/recype-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/service-icon/service-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/service-icon/service-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/service-icon/service-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/img/service-icon/service-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/min/google-map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/min/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/min/video_player.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/js/video_player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_event.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_feature.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_predefin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_slider (Mohammad Rocky's conflicted copy 2017-03-20).scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/bootatrap-date-time/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/bootatrap-date-time/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/bootstrap-selector/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/bootstrap-selector/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/countdown/countdown.demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/countdown/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/counter-up/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/counter-up/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/instafeed/instafeed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/isotope/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/js-calender/zabuto_calendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/js-calender/zabuto_calendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/linears-icon/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/linears-icon/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/linears-icon/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/linears-icon/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/linears-icon/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/linears-icon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/material-icon/css/materialdesignicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/material-icon/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/material-icon/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/material-icon/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/material-icon/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/material-icon/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/owl-carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/revolution_slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/revolution_slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/vm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/wc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/sources/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/svg/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/assets/svg/svg.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/closedhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/ares.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/dione.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/erinyen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/gyges.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/hades.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/hebe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/hephaistos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/hermes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/hesperiden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/metis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/persephone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/uranus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation-skins/zeus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/openhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/settings-ver.5.3.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/font-awesome/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/pe-icon-7-stroke/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/revicons/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/revicons/revicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/revicons/revicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/revicons/revicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/fonts/revicons/revicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/extensions/source/revolution.extension.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/source/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/source/jquery.themepunch.revolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/revolution/js/source/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/tweet/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/tweet/min/scripts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/tweet/tweet-carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/Cafe/src/assets/vendors/tweet/tweetie.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/src/app/customLib/MustMatchDirective.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/Cafe/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/Cafe/src/styles.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/assets/css/modal.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-342">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/modal/modal.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/modal.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/master-page/master-page.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/homepage/homepage.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/master-page/master-page.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#705#751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="XSLT Stylesheet" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>owl</find>
+      <find>nav</find>
+      <find>service_item</find>
+      <find>SECR</find>
+      <find>secret</find>
+      <find>frame</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app_public/Cafe" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/loginusers.ts" />
+        <option value="$PROJECT_DIR$/app_api/controllers/authentication.js" />
+        <option value="$PROJECT_DIR$/app_api/controllers/siteusersController.js" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/siteuser.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/user-update/user-update.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/admin/admin.component.html" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/user-create/user-create.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/user-create/user-create.component.html" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/users/users.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/assets/css/modal.css" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/modal.service.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/modal/modal.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/users/users.component.html" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/index.html" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/assets/css/modal.less" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/homepage/homepage.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/master-page/master-page.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/homepage/homepage.component.html" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/authentication.service.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/siteuser-service.service.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/angular.json" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/app_public/Cafe/src/app/master-page/master-page.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="757" />
+    <option name="width" value="1117" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectId" id="1RidsOqlWtq4sOS1qQRIx4urbDz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="master-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cafe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cafe" type="462c0819:PsiDirectoryNode" />
+              <item name="app_server" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Users\Maftab9567\Downloads\capestone project\Cafe\app_public\Cafe\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_public\Cafe\src\assets\css" />
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_public\Cafe\src\assets\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_api\userslogin" />
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_api\users" />
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_api\helpers" />
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_api\controllers" />
+      <recent name="C:\Users\Maftab9567\Downloads\Cafe\app_public\Cafe\src\assets\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="703db0f0-dd09-4a4f-bb67-2bb38bc26c28" name="Default Changelist" comment="" />
+      <created>1569963593381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569963593381</updated>
+      <workItem from="1569963595959" duration="19151000" />
+      <workItem from="1570031594231" duration="3014000" />
+      <workItem from="1570034803055" duration="794000" />
+      <workItem from="1570035652223" duration="68000" />
+      <workItem from="1570035945534" duration="20950000" />
+      <workItem from="1570121946379" duration="5765000" />
+      <workItem from="1570154081002" duration="12473000" />
+      <workItem from="1570468365407" duration="16369000" />
+      <workItem from="1570504707148" duration="9358000" />
+      <workItem from="1570542444731" duration="1747000" />
+      <workItem from="1570595312147" duration="2765000" />
+      <workItem from="1570635432383" duration="10899000" />
+      <workItem from="1570723113692" duration="13523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24422000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1938883" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/authresponse.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/loginusers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/siteusersController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/models/siteuser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/user-update/user-update.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/user-update/user-update.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/routes/siteusersRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/user-create/user-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/admin/admin.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/user-create/user-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/siteuser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/users/users.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/assets/css/modal.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/modal/modal.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/homepage/homepage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/users/users.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/authentication.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/siteuser-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/homepage/homepage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#705#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/master-page/master-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/master-page/master-page.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/assets/css/modal.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/modal/modal.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/Cafe/src/app/modal.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
