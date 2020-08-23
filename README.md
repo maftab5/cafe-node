@@ -13,10 +13,10 @@ Cafe - Node is the backend part of Online Cafe to create API for various operati
 * Sending emails to and from the users
 
 ## Prerequiste
-* Node
-* Express
-* Mongoose
-* MongoDB
+* ![Generic badge](https://img.shields.io/badge/NODE JS-1abc9c.svg)
+* ![Generic badge](https://img.shields.io/badge/EXPRESS JS-131cc0.svg)
+* ![Generic badge](https://img.shields.io/badge/Mongoose-<COLOR>.svg)
+* ![Generic badge](https://img.shields.io/badge/MongoDB-<COLOR>.svg)
 
 
 ## Installation
@@ -26,23 +26,24 @@ Make sure you have node js and git installed on your machine. I recommend you to
 Open the terminal and follow the steps
 * Step 1 : Clone the repo
 
- ```git clone https://github.com/maftab5/cafe-node.git```
+       ```git clone https://github.com/maftab5/cafe-node.git```
  
  You can see `cafe-node` folder in your current working directory. Now change the direcotry to **`cafe`** inside cafe-node
  `cd cafe-node/cafe`
  
  * Step 2 : Install dependencies
- ``` npm install```
+ 
+        ```npm install```
  
  This will install all the dependencies for the project.
  * Step 3 : Connect the project to your MongoDB database
  
  change the username and password with your database username and password in the file **db.js** inside **app_server/models** folder
  
- ```const dbURI = 'mongodb+srv://<username>:<password>@nodeapplication-rsic3.mongodb.net/Cafe?retryWrites=true&w=majority'```
+        ```const dbURI = 'mongodb+srv://<username>:<password>@nodeapplication-rsic3.mongodb.net/Cafe?retryWrites=true&w=majority'```
  
  * Step 4 : Run the project.
  
- `npm start`
+        ```npm start```
  
  You should see the project up and running
