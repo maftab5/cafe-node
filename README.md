@@ -13,8 +13,8 @@ Cafe - Node is the backend part of Online Cafe to create API for various operati
 * Sending emails to and from the users
 
 ## Prerequiste
-* ![Generic badge](https://img.shields.io/badge/NODE JS-1abc9c.svg)
-* ![Generic badge](https://img.shields.io/badge/EXPRESS JS-131cc0.svg)
+* ![Generic badge](https://img.shields.io/badge/NODEJS-1abc9c.svg)
+* ![Generic badge](https://img.shields.io/badge/EXPRESSJS-131cc0.svg)
 * ![Generic badge](https://img.shields.io/badge/Mongoose-<COLOR>.svg)
 * ![Generic badge](https://img.shields.io/badge/MongoDB-<COLOR>.svg)
 
