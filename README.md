@@ -21,14 +21,14 @@ Cafe - Node is the backend part of Online Cafe to create API for various operati
 
 ## Installation
 
-Make sure you have node js and git installed on your machine. I recommend you to have **Node** version 10x or above, and **npm** verison 5.8 or above
+Make sure you have node js and git installed on your machine. I recommend you to have **[Node](https://nodejs.org/en/download/)** version 10x or above, and **npm** verison 5.8 or above
 
 Open the terminal and follow the steps
 * Step 1 : Clone the repo
 
  ```git clone https://github.com/maftab5/cafe-node.git```
  
- You can see `cafe-node` folder in your current working directory. Now change the direcotry to **cafe** inside cafe-node
+ You can see `cafe-node` folder in your current working directory. Now change the direcotry to **`cafe`** inside cafe-node
  `cd cafe-node/cafe`
  
  * Step 2 : Install dependencies
@@ -42,6 +42,7 @@ Open the terminal and follow the steps
  ```const dbURI = 'mongodb+srv://<username>:<password>@nodeapplication-rsic3.mongodb.net/Cafe?retryWrites=true&w=majority'```
  
  * Step 4 : Run the project.
- ```npm start```
+ 
+ `npm start`
  
  You should see the project up and running
